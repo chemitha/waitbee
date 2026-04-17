@@ -5,6 +5,9 @@
 It provides an **admin dashboard**, a **public join flow**, and **exportable data** so teams can efficiently collect, manage, and analyze waitlist entries.
 
 ---
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/29a10a9e-b219-4453-a729-84db7b042808" />
+
+---
 
 ## Features
 - **Admin dashboard** for managing entries, users, and settings  
