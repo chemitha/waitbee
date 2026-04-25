@@ -38,7 +38,7 @@ export default function IntegrationsPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-zinc-700 mb-1">From Email Address</label>
-                  <input type="email" className={styles.adminInput} defaultValue="hello@waitlistbuilder.com" />
+                  <input type="email" className={styles.adminInput} defaultValue="hello@waitbee.vercel.app" />
                 </div>
               </div>
             </div>

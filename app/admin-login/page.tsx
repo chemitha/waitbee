@@ -100,7 +100,7 @@ export default function AdminLoginPage() {
       
       <Link href="/" className={styles.backLink}>
         <ArrowLeft className="w-4 h-4" />
-        Back to WaitlistBuilder
+        Back to WaitBee
       </Link>
     </div>
   );

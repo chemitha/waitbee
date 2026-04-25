@@ -28,7 +28,7 @@ export default async function DashboardIndexPage() {
             <div style={{ width: '2rem', height: '2rem', backgroundColor: 'var(--black)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
               <Rocket className="w-4 h-4" />
             </div>
-            <span className={styles.logo}>WaitlistBuilder</span>
+            <span className={styles.logo}>WaitBee</span>
           </Link>
           <div className={styles.userNav}>
             <span className={styles.userEmail}>{user.email}</span>

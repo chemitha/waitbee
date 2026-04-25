@@ -140,7 +140,7 @@ export default async function WaitlistPage({ params, searchParams }: { params: P
 
         <div className={styles.footer}>
           <span>Powered by</span>
-          <Link href="/">WaitlistBuilder</Link>
+          <Link href="/">WaitBee</Link>
         </div>
       </div>
     </div>

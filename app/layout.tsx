@@ -9,40 +9,40 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#000000', // Matches your "Midnight" theme
+  themeColor: '#ffffff', // Matches your "Midnight" theme
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://waitlistbuilder.com'), // Replace with your actual domain
+  metadataBase: new URL('https://waitbee.vercel.app'), // Replace with your actual domain
   title: {
-    default: 'WaitlistBuilder | Launch Your Product with a Viral Waitlist',
-    template: '%s | WaitlistBuilder',
+    default: 'WaitBee | Launch Your Product with a Viral Waitlist',
+    template: '%s | WaitBee',
   },
   description: 'The open-source waitlist builder for indie founders. Build hype, collect emails, and launch your product in under 60 seconds.',
   keywords: ['Waitlist Builder', 'SaaS Launch', 'Early Access', 'Lead Generation', 'Open Source'],
-  authors: [{ name: 'Chemitha Sathsilu (Sevenplx)', url: 'https://github.com/sevenplx' }],
+  authors: [{ name: 'Chemitha Sathsilu (chemitha)', url: 'https://github.com/chemitha' }],
   creator: 'Chemitha Sathsilu',
   
   // 3. OpenGraph for better Social Media Sharing (Twitter/FB/LinkedIn)
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://waitlistbuilder.com',
-    title: 'WaitlistBuilder - Launch Your Product with a Viral Waitlist',
+    url: 'https://waitbee.vercel.app',
+    title: 'WaitBee - Launch Your Product with a Viral Waitlist',
     description: 'Used by early-stage founders to quickly build hype, collect emails, and launch their products.',
-    siteName: 'WaitlistBuilder',
+    siteName: 'WaitBee',
     images: [{
         url: '/yt-thumbnail.png',
         width: 1200,
         height: 630,
-        alt: 'WaitlistBuilder Preview',
+        alt: 'WaitBee Preview',
       }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WaitlistBuilder',
+    title: 'WaitBee',
     description: 'Build your viral waitlist in seconds.',
-    creator: '@sevenplx', // Your twitter handle
+    creator: '@chemitha', // Your twitter handle
     images: ['/yt-thumbnail.png'],
   },
   robots: {

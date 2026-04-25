@@ -9,7 +9,7 @@ export default function GithubStarPill() {
     async function fetchStars() {
       try {
         const res = await fetch(
-          'https://api.github.com/repos/Sevenplx/waitbee'
+          'https://api.github.com/repos/chemitha/waitbee'
         );
 
         const data = await res.json();
@@ -30,7 +30,7 @@ export default function GithubStarPill() {
 
   return (
     <a
-      href="https://www.github.com/Sevenplx/waitbee"
+      href="https://www.github.com/chemitha/waitbee"
       target="_blank"
       rel="noopener noreferrer"
       style={{

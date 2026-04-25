@@ -14,12 +14,12 @@ export default function LandingPage() {
           <div className={styles.logoIcon}>
             <Rocket className="w-5 h-5 text-white" />
           </div>
-          <span className={styles.brandName}>WaitlistBuilder</span>
+          <span className={styles.brandName}>WaitBee</span>
         </div>
 
         <div className={styles.navLinks}>
           <Link className={styles.featureLink} href="#features">Features</Link>
-          <Link href="https://www.github.com/Sevenplx/waitbee">GitHub</Link>
+          <Link href="https://www.github.com/chemitha/waitbee">GitHub</Link>
           {/* Donate Button */}
           <DonateButton className="navLinksLink" />
         </div>
@@ -133,16 +133,16 @@ export default function LandingPage() {
         <div className={styles.footerInner}>
           <div className={styles.footerLogo}>
             <Rocket className="w-4 h-4" />
-            <span>WaitlistBuilder</span>
+            <span>WaitBee</span>
           </div>
           <p className={styles.footerText}>
-            Built by <a href="https://github.com/sevenplx">Chemitha Sathsilu</a> ♥ Open Source
+            Built by <a href="https://github.com/chemitha">Chemitha Sathsilu</a> ♥ Open Source
           </p>
           <div className={styles.footerLinks}>
-            <Link href="https://www.github.com/Sevenplx/waitbee" className={styles.footerLink} target="_blank">
+            <Link href="https://www.github.com/chemitha/waitbee" className={styles.footerLink} target="_blank">
               GitHub
             </Link>
-            <Link href="https://www.github.com/Sevenplx/waitbee/issues/new" className={styles.footerLink} target="_blank">
+            <Link href="https://www.github.com/chemitha/waitbee/issues/new" className={styles.footerLink} target="_blank">
               Report Bug
             </Link>
             <Link href="/admin-login" className={styles.footerLink}>

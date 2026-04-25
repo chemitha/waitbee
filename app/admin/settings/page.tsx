@@ -28,7 +28,7 @@ export default function SettingsPage() {
               <div className={styles.settingsForm}>
                 <div>
                   <label className="block text-sm font-medium text-zinc-700 mb-1">Site Name</label>
-                  <input type="text" className={styles.adminInput} defaultValue="WaitlistBuilder" />
+                  <input type="text" className={styles.adminInput} defaultValue="WaitBee" />
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                   <div>
@@ -92,7 +92,7 @@ export default function SettingsPage() {
               <div className={styles.settingsForm}>
                 <div>
                   <label className="block text-sm font-medium text-zinc-700 mb-1">Main Domain</label>
-                  <input type="text" className={styles.adminInput} defaultValue="waitlistbuilder.com" />
+                  <input type="text" className={styles.adminInput} defaultValue="waitbee.vercel.app" />
                 </div>
                 <label className={styles.toggleLabel}>
                   <div className={styles.toggleSwitch}>

@@ -38,7 +38,7 @@ export default async function DashboardPage({
             <Link href="/dashboard" className={styles.backLink} title="Back to Dashboard">
               <ArrowLeft size={20} />
             </Link>
-            <div className={styles.headerTitle}>WaitlistBuilder Dashboard</div>
+            <div className={styles.headerTitle}>WaitBee Dashboard</div>
           </div>
           <div className={styles.headerAdmin}>Admin: {user.email}</div>
         </div>
