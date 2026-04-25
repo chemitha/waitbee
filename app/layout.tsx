@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#ffffff', // Matches your "Midnight" theme
+  themeColor: '#000000', // Matches your "Midnight" theme
 };
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: 'https://waitbee.vercel.app',
     title: 'WaitBee - Launch Your Product with a Viral Waitlist',
     description: 'Used by early-stage founders to quickly build hype, collect emails, and launch their products.',
-    siteName: 'WaitBee',
+    siteName: 'WaitlistBuilder',
     images: [{
         url: '/yt-thumbnail.png',
         width: 1200,
