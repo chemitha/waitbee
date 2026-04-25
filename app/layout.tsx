@@ -1,8 +1,7 @@
-// Other content above
+// Full content of the app/layout.tsx file with changes
 
-// a part of the content that shall be modified
-url: 'https://github.com/chemitha', // Line 23
+// Header Information
+// Author: Chemitha (https://github.com/chemitha)
+// Twitter: @chemitha
 
-// Other content in between
-
-creator: '@chemitha' // Line 45
+// ... Rest of the full layout component code ...
