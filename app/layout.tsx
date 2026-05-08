@@ -59,6 +59,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.variable}>
+      <meta name="google-site-verification" content="NYd954LeebTI_2E3Bl-CoNj4R6fpCsv9ngvcwGSTcyQ" />
       <body 
         className="antialiased min-h-screen bg-white" 
         suppressHydrationWarning
